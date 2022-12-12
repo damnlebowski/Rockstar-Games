@@ -1,0 +1,294 @@
+body{
+  
+  overflow-x: hidden;
+  background-color: rgb(11,11,11);
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+*{
+	margin-top: 0;
+}
+
+
+.column1 {
+    text-align: left;
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 15px;
+    color: white;
+  }
+  .column2 {
+    
+    text-align: center;
+    padding-top: 15px;
+    width: 20%;
+    
+  }
+  .column3 {
+    text-align: right;
+    width: 40%;
+    padding-right: 90px;
+    padding-top: 15px;
+    color: white;
+  }
+  
+  .material-symbols-rounded{
+    cursor: pointer;
+  }
+
+  #icon{
+    height: 36px;
+    width: 36px;
+    
+  }
+
+  #user{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+
+  #firstBlock{
+    margin-left: 60px;
+    display: flex;
+    background: black;
+  }
+
+  #first{
+    height: 595px;
+    width: 1060px;
+    cursor: pointer;
+  }
+
+  
+
+  #firstText{
+    padding-top: 80px;
+    padding-left: 42px;
+    color:white;
+    font-family: Arial;
+  }
+
+  #firstBn{
+    font-size: 25px;
+    color: white;
+    border: 2px solid rgb(211, 210, 210);
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    height: 70px;
+    width: 250px;
+  }
+
+  #firstBn:hover{
+    color: black;
+    background-color: rgb(252,175,23);
+
+  }
+
+  #nw{
+    color: white;
+    font-family: Arial;
+    padding-left: 85px;
+  }
+
+  .main{
+    padding-left: 55px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+  }
+
+  .mainBlock{
+    background-color: black;
+    color:white;
+    display: flex;
+    height: fit-content;
+  }
+
+  .mainImages{
+    border-radius: 10px;
+    height: 425px;
+    width: 425px;
+  }
+
+  .mainSet{
+    border: 1px solid rgb(102,102,102);
+    border-radius: 10px;
+    height: 600px;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  .mainText{
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .mode{
+    font-size: 16;
+    font-weight: bold;
+  }
+
+  .date{
+    color:rgb(102,102,102) ;
+    margin-left: 10px;
+    font-size: 14px;
+
+  }
+
+  .para{
+    font-weight: bold;
+    font-size: large;
+
+  }
+
+  #p1{
+    color:white;
+    align-items: center;
+    margin-left: 44%;
+  }
+
+
+  .featured{
+    padding-left: 70px;
+    display: flex;
+  }
+
+  .last{
+    border-radius: 10px;
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+    cursor: pointer;
+  }
+
+  #p2{
+    color:white;
+    align-items: center;
+    margin-left: 47%;
+    font-family: Arial;
+  }
+
+  .vw{
+    background-color: black;
+    color:white;
+    border: 0px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 120px;
+    font-size: large;
+    cursor: pointer;
+  }
+  .vw:hover{
+    color: black;
+    background-color: rgb(252,175,23);
+  }
+
+  #foot{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 450px;
+    width: 1600px;
+  }
+  #footdiv{
+    color: white;
+    height: 450px;
+    
+    
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .footBlock{
+    height: 150px;
+    display: flex;
+  }
+
+  #f1{
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 50%;
+    font-weight: 700;
+    word-spacing: 20px;
+
+  }
+
+  #f2{
+    margin-top: 90px;
+    margin-right: 50px;
+    font-weight: 800;
+    text-align: end;
+    width: 50%;
+  }
+
+  #glo{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  #f3{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 100;
+    font-size: small;
+  }
+
+  #f4{
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: end;
+    width: 50%;
+  }
+
+  #f5{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 30%;
+    font-size: small;
+    font-weight: bold;
+  }
+
+  #f6{
+    margin-top: 50px;
+    text-align: center;
+    width: 40%;
+    word-spacing: 20px;
+  }
+
+  #f7{
+    margin-top: 50px;
+    text-align: end;
+    width: 30%;
+    font-weight: bold;
+    font-size: small;
+  }
+
+  .link{
+    margin-left: 30px;
+    cursor: pointer;
+  }
+
+
+  .li{
+    color: rgb(232, 232, 232);
+    margin-left: 10px;
+  }
+  .li:hover{
+    color: rgb(252,175,23);
+    cursor: pointer;
+    
+  }
+
+  #fg{
+    color: white;
+    margin-left: 90px;
+    font-family: sans-serif;
+  }
